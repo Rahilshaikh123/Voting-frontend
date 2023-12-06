@@ -1,0 +1,24 @@
+.voting-container {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 1px black;
+}
+.candidate {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+.candidate input {
+  width: 40%;
+}
+.candidate label {
+  font-size: large;
+  width: 60%;
+}
+.modal {
+  text-align: center;
+  margin-bottom: 1rem;
+}

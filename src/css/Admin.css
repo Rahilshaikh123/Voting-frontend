@@ -1,0 +1,28 @@
+.vote-counter-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-shadow: 0px 0px 1px black;
+}
+
+.candidate-list {
+  list-style: none;
+  padding: 0;
+}
+
+.candidate-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.candidate-name {
+  font-weight: bold;
+}
+
+.vote-count {
+  color: green;
+  font-weight: bold;
+}

@@ -1,0 +1,32 @@
+.error {
+  z-index: 100;
+  position: fixed;
+
+  top: 22vh;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: x-large;
+  width: 80%;
+  height: 60%;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 2px;
+}
+.error header {
+  background-color: black;
+  color: white;
+  width: 98%;
+  /* margin-top: 5px; */
+  border-radius: 5px;
+  height: 2rem;
+  padding-left: 1rem;
+}
+
+.error-body {
+  display: flex;
+  align-items: center;
+  height: 60%;
+}
